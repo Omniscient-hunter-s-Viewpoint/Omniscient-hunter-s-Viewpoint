@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/footer/js/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/LoginMain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ohv_pront/src/img/ee..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ohv_pront/src/img/main-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ohv_pront/src/img/ww.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "leeBranch",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\develop\Omniscient-hunter-s-Viewpoint-pront\ohv_pront\src\img" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Main from "./component/main/js/main";
-import Login from "./component/Login/js/Login";
+import LoginMain from "./component/Login/js/LoginMain";
+import {Reset} from "styled-reset";
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+        <Reset/>
+      <LoginMain/>
     </div>
   );
 }
