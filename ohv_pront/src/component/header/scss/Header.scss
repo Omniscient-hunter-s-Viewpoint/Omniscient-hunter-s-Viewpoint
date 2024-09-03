@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #123057;
+  background-color: white;
   padding: 10px 20px;
   position: relative;
 }
@@ -10,7 +10,7 @@
   position: absolute;
   left: 20px;
   width: 100px;
-  height: 80px;
+  height: 60px;
   background-image: url('../../../imgs/headerLogo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -19,15 +19,12 @@
 .headerMenu {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 100px;
 }
 .headerMenu a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 20px;
-}
-.headerMenu a:hover {
-  text-decoration: underline;
 }
 .headerLogin {
   display: flex;

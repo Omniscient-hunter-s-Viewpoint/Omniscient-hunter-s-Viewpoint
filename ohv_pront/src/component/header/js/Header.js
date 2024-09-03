@@ -9,10 +9,11 @@ const Header = () => {
                 </div>
                 <nav>
                     <ul className="headerMenu">
-                        <li><Link to="/">메뉴</Link></li>
-                        <li><Link to="/">도감</Link></li>
-                        <li><Link to="/">가이드</Link></li>
                         <li><Link to="/">홈</Link></li>
+                        <li><Link to="/">무기</Link></li>
+                        <li><Link to="/">장비</Link></li>
+                        <li><Link to="/">도감</Link></li>
+                        <li><Link to="/">초보자가이드</Link></li>
                     </ul>
                 </nav>
                 <div className="headerLogin">
