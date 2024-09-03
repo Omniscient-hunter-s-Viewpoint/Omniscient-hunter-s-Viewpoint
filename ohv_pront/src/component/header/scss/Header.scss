@@ -1,0 +1,44 @@
+.headerNav  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #123057;
+  padding: 10px 20px;
+  position: relative;
+}
+.headerLogo {
+  position: absolute;
+  left: 20px;
+  width: 100px;
+  height: 80px;
+  background-image: url('../../../imgs/headerLogo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.headerMenu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.headerMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.headerMenu a:hover {
+  text-decoration: underline;
+}
+.headerLogin {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.headerLoginIcon {
+  width: 40px;
+  height: 40px;
+  background-image: url('../../../imgs/headerLogin.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
