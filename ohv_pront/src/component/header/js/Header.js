@@ -1,11 +1,15 @@
 import React from 'react';
 import '../scss/Header.scss'
 import {Link} from "react-router-dom";
+import { VscAccount } from "react-icons/vsc";
 const Header = () => {
     return (
         <>
             <section className="headerNav">
                 <div className="headerLogo">
+                </div>
+                <div className="headerLogin">
+                    <Link to="/login"><VscAccount className="headerLoginIcon"/></Link>
                 </div>
                 <nav>
                     <ul className="headerMenu">
@@ -16,9 +20,6 @@ const Header = () => {
                         <li><Link to="/">초보자가이드</Link></li>
                     </ul>
                 </nav>
-                <div className="headerLogin">
-                    <Link to="/login" className="headerLoginIcon"></Link>
-                </div>
             </section>
         </>
     );
