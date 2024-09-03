@@ -1,0 +1,34 @@
+.mainBackdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  .backdropLeft {
+    width: 50%;
+    height: 100%;
+    .backdropEventLeft {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      .backdropLogoLeft {
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+  .backdropMiddle {
+    height: 100%;
+    border: black solid 1px;
+  }
+  .backdropRight {
+    width: 50%;
+    height: 100%;
+    .backdropEventRight {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

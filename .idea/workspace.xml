@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="변경">
+      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/js/MainBackdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/MainBackdrop.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/footer/scss/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/footer/scss/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/scss/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/header/scss/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/imgs/headerLogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/js/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/js/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hyunjun2&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hyunjun2",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.0.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -103,7 +102,8 @@
       <workItem from="1725286952017" duration="13000" />
       <workItem from="1725332127281" duration="3128000" />
       <workItem from="1725347315725" duration="1261000" />
-      <workItem from="1725348629244" duration="7246000" />
+      <workItem from="1725348629244" duration="8852000" />
+      <workItem from="1725358606341" duration="3113000" />
     </task>
     <servers />
   </component>
