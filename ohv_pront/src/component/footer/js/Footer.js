@@ -1,10 +1,10 @@
 import React from 'react';
-
+import '../scss/Footer.scss'
 const Footer = () => {
     return (
-        <div>
-            <h1>이효원 바보</h1>
-        </div>
+        <>
+            <section className="footerNav"></section>
+        </>
     );
 };
 
