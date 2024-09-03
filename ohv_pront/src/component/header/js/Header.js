@@ -9,10 +9,9 @@ const Header = () => {
                 <nav>
                     <ul className="headerMenu">
                         <li><a href="/">홈</a></li>
-                        <li><a href="/">몬스터</a></li>
-                        <li><a href="/">장비</a></li>
+                        <li><a href="/">메뉴</a></li>
                         <li><a href="/">도감</a></li>
-                        <li><a href="/">초보자가이드</a></li>
+                        <li><a href="/">가이드</a></li>
                     </ul>
                 </nav>
                 <div className="headerLogin">
