@@ -4,30 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/SignUp.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/img/btn1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/img/cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/img/neko.png" afterDir="false" />
+    <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/LoginMain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/js/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/footer/js/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/footer/js/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/footer/scss/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/footer/scss/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/scss/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/header/scss/Header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="hyunjun" />
+                    <option name="lastUsedInstant" value="1725345548" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+    &quot;customColor&quot;: &quot;&quot;,
+    &quot;associatedIndex&quot;: 0
+    }</component>
+  <component name="ProjectId" id="2lHSUh3XgURfVKP3FoSM2RnjFNr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +68,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;leeBranch&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hyunjun&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -47,10 +79,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\develop\Omniscient-hunter-s-Viewpoint-pront\ohv_pront\src\img" />
-    </key>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -62,14 +102,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="d79efb45-e458-4d07-bc0c-40b9925d5ea4" name="변경" comment="" />
-      <created>1725336924706</created>
+      <changelist id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="" />
+      <created>1724835530331</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724835530331</updated>
       <workItem from="1724835543098" duration="611000" />
       <workItem from="1724903882529" duration="1886000" />
-      <workItem from="1725003676695" duration="15415000" />
+      <workItem from="1724909331720" duration="16106000" />
+      <workItem from="1725000510297" duration="95000" />
+      <workItem from="1725016250443" duration="3502000" />
+      <workItem from="1725020498653" duration="117000" />
+      <workItem from="1725025921681" duration="91000" />
+      <workItem from="1725037582147" duration="1651000" />
+      <workItem from="1725168839122" duration="917000" />
+      <workItem from="1725286303206" duration="7000" />
+      <workItem from="1725286952017" duration="13000" />
+      <workItem from="1725332127281" duration="3128000" />
+      <workItem from="1725345714780" duration="374000" />
     </task>
     <servers />
   </component>
