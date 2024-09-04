@@ -5,15 +5,11 @@ const MainBackdrop = () => {
     return (
         <div className="mainBackdrop">
             <div className="backdropLeft">
-                <div className="backdropEventLeft">
-                    <img src='../../../imgs/backdropLogoLeft.webp' className="backdropLogoLeft"></img>
-                </div>
+                <div className="backdropEventLeft"></div>
             </div>
             <div className="backdropMiddle"></div>
             <div className="backdropRight">
-                <div className="backdropEventRight">
-                    <img src='../../../imgs/backdropLogoRight.webp' className="backdropLogoRight"></img>
-                </div>
+                <div className="backdropEventRight"></div>
             </div>
         </div>
     );
