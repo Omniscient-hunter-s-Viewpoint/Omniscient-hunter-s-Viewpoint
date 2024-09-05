@@ -8,10 +8,11 @@
   .backdropLeft {
     width: 50%;
     height: 100%;
+    background-color: rgba (0, 0, 0, 0.5);
     .backdropEventLeft {
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
+      background: url("../../../imgs/backdropLogoLeft.webp");
     }
   }
   .backdropMiddle {
@@ -21,10 +22,11 @@
   .backdropRight {
     width: 50%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     .backdropEventRight {
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
+      background: url("../../../imgs/backdropLogoRight.webp");
     }
   }
 }
