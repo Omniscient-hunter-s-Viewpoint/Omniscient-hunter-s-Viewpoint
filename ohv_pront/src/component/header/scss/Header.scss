@@ -15,10 +15,7 @@
   left: 10vh;
   width: 10vh;
   height: 8vh;
-  background-image: url('../../../imgs/headerLogo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url('../../../imgs/headerLogo.png') no-repeat center/contain;
 }
 .headerMenu {
   display: flex;
