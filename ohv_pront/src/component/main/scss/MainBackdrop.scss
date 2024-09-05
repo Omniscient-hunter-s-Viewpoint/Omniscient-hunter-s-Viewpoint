@@ -12,7 +12,7 @@
     .backdropEventLeft {
       width: 100%;
       height: 100%;
-      background: url("../../../imgs/backdropLogoLeft.webp");
+      background: url("../../../imgs/backdropLogoLeft.webp") no-repeat center;
     }
   }
   .backdropMiddle {
@@ -26,7 +26,7 @@
     .backdropEventRight {
       width: 100%;
       height: 100%;
-      background: url("../../../imgs/backdropLogoRight.webp");
+      background: url("../../../imgs/backdropLogoRight.webp") no-repeat center;
     }
   }
 }
