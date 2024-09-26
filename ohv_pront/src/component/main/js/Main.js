@@ -2,7 +2,7 @@ import React from 'react';
 import '../scss/main.scss';
 import Header from '../../header/js/Header';
 import Footer from '../../footer/js/Footer';
-import MainBackdrop from "../MainBackdrop";
+import MainBackdrop from "../js/MainBackdrop";
 const Main = () => {
     return (
         <>
