@@ -4,21 +4,17 @@
   width: 100%;
   height: 100vh;
   z-index: 1;
-  display: flex;
   .backdropLeft {
     width: 50%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
     .backdropEventLeft {
       width: 100%;
       height: 100%;
-      .backgroundEventLeftLogo{
+      .backdropEventLeftLogoLeftLogo{
         width: 20%;
         height: 100%;
-        background: url("../../../imgs/backdropLogoLeft.webp") no-repeat center;
-        justify-content: center;
-        align-items: center;
+        background: url("../../../imgs/backdropLogoLeft.webp");
       }
     }
   }
@@ -30,14 +26,13 @@
     width: 50%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
     .backdropEventRight {
       width: 100%;
       height: 100%;
       .backdropEventRightLogo {
         width: 20%;
         height: 100%;
-        background: url("../../../imgs/backdropLogoRight.webp") no-repeat center;
+        background: url("../../../imgs/backdropLogoRight.webp");
         justify-content: center;
         align-items: center;
 
