@@ -1,9 +1,37 @@
 .footerNav  {
   position: fixed;
   display: flex;
+  z-index: 99999;
   bottom: 0;
   width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
   height: 5vh;
-  padding: 1em;
   background-color: rgba(0, 0, 0, 0.7);
+  .footerName {
+    width: 100%;
+    .footerEmail {
+      color: white;
+      opacity: 0.4;
+    }
+    .footerLogoBox {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      .footerGithubIcon {
+        padding: 10px;
+      }
+      .footerSteamIcon {
+        padding: 10px;
+      }
+      .footerDiscordIcon {
+        padding: 10px;
+      }
+      .footerInstagramIcon {
+        padding: 10px;
+      }
+    }
+  }
 }

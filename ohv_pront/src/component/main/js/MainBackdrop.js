@@ -1,18 +1,19 @@
 import React from 'react';
 import '../scss/MainBackdrop.scss'
+import {Link} from "react-router-dom";
 
 const MainBackdrop = () => {
     return (
         <div className="mainBackdrop">
             <div className="backdropLeft">
                 <div className="backdropEventLeft">
-                    <div className="backdropEventLeftLogo"></div>
+                    <Link to="/login" className="backdropEventLeftLogo"></Link>
                 </div>
             </div>
             <div className="backdropMiddle"></div>
             <div className="backdropRight">
                 <div className="backdropEventRight">
-                    <div className="backdropEventRightLogo"></div>
+                    <Link to="/login" className="backdropEventRightLogo"></Link>
                 </div>
             </div>
         </div>
