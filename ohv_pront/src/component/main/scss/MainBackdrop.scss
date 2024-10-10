@@ -4,28 +4,33 @@
   width: 100%;
   height: 100vh;
   z-index: 1;
+  display: flex;
   .backdropLeft {
     width: 50%;
     height: 100%;
     .backdropEventLeft {
       width: 100%;
       height: 100%;
-      display: flex;
       background-color: rgba(0, 0, 0, 0.5);
       opacity: 0;
-      transition: 1s;
-      .backdropEventLeftLogoLeftLogo{
-        width: 20%;
-        height: 100%;
-        background: url("../../../imgs/backdropLogoLeft.webp")no-repeat center/contain;
-        justify-content: center;
-        align-items: center;
+      transition: opacity 1s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+        .backdropEventLeftLogo {
+          width: 40%;
+          height: 20%;
+          background: url("../../../imgs/backdropLogoLeft.webp") no-repeat center/contain;
+        }
       }
     }
   }
   .backdropMiddle {
+    flex: 1;
     height: 100%;
-    width: 100%;
     border: black solid 1px;
   }
   .backdropRight {
@@ -34,17 +39,20 @@
     .backdropEventRight {
       width: 100%;
       height: 100%;
-      display: flex;
       background-color: rgba(0, 0, 0, 0.5);
       opacity: 0;
-      transition: 1s;
-      .backdropEventRightLogo {
-        width: 20%;
-        height: 100%;
-        background: url("../../../imgs/backdropLogoRight.webp")no-repeat center/contain;
-        justify-content: center;
-        align-items: center;
-
+      transition: opacity 1s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+        .backdropEventRightLogo {
+          width: 40%;
+          height: 20%;
+          background: url("../../../imgs/backdropLogoRight.webp") no-repeat center/contain
+        }
       }
     }
   }
