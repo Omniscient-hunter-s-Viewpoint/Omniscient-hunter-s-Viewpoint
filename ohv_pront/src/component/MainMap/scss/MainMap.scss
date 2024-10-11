@@ -1,0 +1,92 @@
+#mainMap {
+  position: absolute; /* 절대 위치 지정 */
+  top: 50%; /* 창의 세로 중앙 */
+  left: 50%; /* 창의 가로 중앙 */
+  transform: translate(-50%, -50%); /* 중앙에 정확히 위치시키기 위해 offset 조정 */
+  background: url("../../../img/mainMapTest-Photoroom.png") no-repeat center/cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 950px;
+  grid-template-columns: repeat(10, 150px); /* 10개의 열 */
+  grid-template-rows: repeat(5, 150px); /* 6개의 행 */
+  gap: 10px; /* 항목 간의 간격 */
+  overflow: hidden;
+  .gridItem {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sharedCharacteristic {
+    position: absolute;
+
+    .imgsize {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  .forestBox {
+    bottom: 0;
+    left: 10px;
+  }
+
+  .groundBox {
+    top: -30px;
+    right: 15px;
+    .circle{
+      position: absolute;
+      top: -70px;
+      right: -120px;
+      width: 320px;
+      height: 270px;
+      z-index: 1;
+    }
+    .groundImg{
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+      left: -90px;
+    }
+    .groundImg:hover{
+      background: #282c34;
+    }
+  }
+
+  .sanhoBox {
+    top: -35px;
+    right: -10px;
+  }
+
+  .poisonBox {
+    left: 0;
+    bottom: 0;
+  }
+
+  .dragonBox {
+    top: -50px;
+    left: 0;
+
+  }
+
+  .snowBox {
+    bottom: -30px;
+    left: -5px;
+  }
+  .researchBaseBox{
+    top: -17px;
+    left: -50px;
+  }
+  .AstraBox{
+    top: 0;
+    left: 0;
+  }
+
+
+}
