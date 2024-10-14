@@ -131,17 +131,66 @@
   .dragonBox {
     top: -50px;
     left: 0;
+    .circle{
+      z-index: 1;
+      position: absolute;
+      top: -75px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+
+    }
+    .dragonImg{
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+    }
 
   }
 
   .snowBox {
-    bottom: -30px;
+    top: 90px;
     left: -5px;
+    .circle{
+      z-index: 1;
+      position: absolute;
+      top: -75px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+
+    }
+    .snowImg{
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+    }
   }
 
   .researchBaseBox {
-    top: -17px;
+    top: -20px;
     left: -50px;
+    .circle{
+      z-index: 1;
+      position: absolute;
+      top: -70px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+
+    }
+    .researchBaseImg{
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+      border-radius: 50%;
+    }
   }
 
   .AstraBox {
@@ -162,7 +211,28 @@
       position: absolute;
       z-index: 2;
       cursor: pointer;
+      border-radius: 50%;
+    }
+  }
+  .SerenaBox {
+    top: -40px;
+    left: -2px;
+    .circle{
+      z-index: 1;
+      position: absolute;
+      top: -70px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
 
+    }
+    .SerenaImg{
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+      border-radius: 50%;
     }
   }
 }

@@ -32,7 +32,19 @@ const MainMap = () => {
             <div className="gridItem2 gridItem">2</div>
             <div className="gridItem3 gridItem">3
                 <div className="snowBox sharedCharacteristic">
-                    <img className="snowImg imgsize" src="/img/snow.png" alt="사진 깨짐"/>
+                    <img className={`snowImg imgsize ${"snowImg" === isClassName ? 'click' : ""}`}
+                         src="/img/sanho.png"
+                         alt="사진 깨짐"
+                         onMouseEnter={handleEnter} onMouseLeave={handleLeave} onClick={clickHandler}
+                         onAnimationEnd={() => {
+                             leaveHandler()
+                         }}
+                    />
+                    <img
+                        className={`circle ${'snowImg' === isHovered ? 'drawCircle' : ""}`}
+                        src="/img/redCircle.png"
+                        alt="이미지 깨짐"
+                    />
                 </div></div>
             <div className="gridItem4 gridItem">4</div>
             <div className="gridItem5 gridItem">5</div>
@@ -51,12 +63,40 @@ const MainMap = () => {
             <div className="gridItem17 gridItem">17</div>
             <div className="gridItem18 gridItem">18
                 <div className="dragonBox sharedCharacteristic">
-                    <img className="dragonImg imgsize" src="/img/dragon.png" alt="사진 깨짐"/>
+                    <img className={`dragonImg imgsize ${"dragonImg" === isClassName ? 'click' : ""}`}
+                         src="/img/dragon.png"
+                         alt="사진 깨짐"
+                         onMouseEnter={handleEnter} onMouseLeave={handleLeave} onClick={clickHandler}
+                         onAnimationEnd={() => {
+                             leaveHandler()
+                         }}
+                    />
+                    <img
+                        className={`circle ${'dragonImg' === isHovered ? 'drawCircle' : ""}`}
+                        src="/img/redCircle.png"
+                        alt="이미지 깨짐"
+                    />
                 </div></div>
             <div className="gridItem19 gridItem">19</div>
             <div className="gridItem20 gridItem">20</div>
             <div className="gridItem21 gridItem">21</div>
-            <div className="gridItem22 gridItem">22</div>
+            <div className="gridItem22 gridItem">22
+                <div className="SerenaBox sharedCharacteristic">
+                    <img className={`SerenaImg imgsize ${"SerenaImg" === isClassName ? 'click' : ""}`}
+                         src="/img/Serena.png"
+                         alt="사진 깨짐"
+                         onMouseEnter={handleEnter} onMouseLeave={handleLeave} onClick={clickHandler}
+                         onAnimationEnd={() => {
+                             leaveHandler()
+                         }}
+                    />
+                    <img
+                        className={`circle ${'SerenaImg' === isHovered ? 'drawCircle' : ""}`}
+                        src="/img/redCircle.png"
+                        alt="이미지 깨짐"
+                    />
+                </div>
+            </div>
             <div className="gridItem23 gridItem">23</div>
             <div className="gridItem24 gridItem">24</div>
             <div className="gridItem25 gridItem">25</div>
@@ -87,8 +127,21 @@ const MainMap = () => {
             <div className="gridItem34 gridItem">34</div>
             <div className="gridItem35 gridItem">35
                 <div className="researchBaseBox sharedCharacteristic">
-                    <img className="researchBaseImg imgsize" src="/img/researchBase.png" alt="사진 깨짐"/>
-                </div></div>
+                    <img className={`researchBaseImg imgsize ${"researchBaseImg" === isClassName ? 'click' : ""}`}
+                         src="/img/researchBase.png"
+                         alt="사진 깨짐"
+                         onMouseEnter={handleEnter} onMouseLeave={handleLeave} onClick={clickHandler}
+                         onAnimationEnd={() => {
+                             leaveHandler()
+                         }}
+                    />
+                    <img
+                        className={`circle ${'researchBaseImg' === isHovered ? 'drawCircle' : ""}`}
+                        src="/img/redCircle.png"
+                        alt="이미지 깨짐"
+                    />
+                </div>
+            </div>
             <div className="gridItem36 gridItem">36</div>
             <div className="gridItem37 gridItem">37
                 <div className="poisonBox sharedCharacteristic">
