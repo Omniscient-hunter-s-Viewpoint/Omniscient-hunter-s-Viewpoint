@@ -1,7 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "../scss/MainMap.scss"
 
 const MainMap = () => {
+    const [isHovered, setIsHovered] = useState(false);
+
+    const handleEnter = () => {
+        setIsHovered(true)
+    };
+    const handleLeave = () => {
+        setIsHovered(false);
+    };
+
+
     return (
         <div id="mainMap">
             <div className="gridItem1 gridItem">1</div>
@@ -85,16 +95,18 @@ const MainMap = () => {
             <div className="gridItem50 gridItem">56</div>
             <div className="gridItem50 gridItem">57
                 <div className="groundBox sharedCharacteristic">
-                    <img className="groundImg imgsize" src="/img/ground.png" alt="사진 깨짐"/>
-                    <img className="circle" src="/img/redCircle.png" alt="이미지 깨짐"/>
+                    <img className="groundImg imgsize" src="/img/ground.png" alt="사진 깨짐" onMouseEnter={handleEnter}  onMouseLeave={handleLeave}/>
+                    <img className={`circle ${isHovered?'drawCircle':""}`} src="/img/redCircle.png" alt="이미지 깨짐"/>
+
                 </div></div>
             <div className="gridItem50 gridItem">58</div>
             <div className="gridItem50 gridItem">59</div>
             <div className="gridItem50 gridItem">60</div>
-
-
         </div>
     );
+
+
 };
+
 
 export default MainMap;

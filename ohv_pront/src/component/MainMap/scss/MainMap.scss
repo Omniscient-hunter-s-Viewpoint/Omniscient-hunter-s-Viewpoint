@@ -13,6 +13,7 @@
   grid-template-rows: repeat(5, 150px); /* 6개의 행 */
   gap: 10px; /* 항목 간의 간격 */
   overflow: hidden;
+
   .gridItem {
     position: relative;
     width: 150px;
@@ -40,21 +41,26 @@
   .groundBox {
     top: -30px;
     right: 15px;
-    .circle{
+
+    .circle {
       position: absolute;
       top: -70px;
       right: -120px;
       width: 320px;
       height: 270px;
       z-index: 1;
+      border-radius: 50%; /* 원 모양 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+
     }
-    .groundImg{
+    .groundImg {
       position: absolute;
       z-index: 2;
       cursor: pointer;
       left: -90px;
     }
-    .groundImg:hover{
+
+    .groundImg:hover {
       background: #282c34;
     }
   }
@@ -79,14 +85,38 @@
     bottom: -30px;
     left: -5px;
   }
-  .researchBaseBox{
+
+  .researchBaseBox {
     top: -17px;
     left: -50px;
   }
-  .AstraBox{
+
+  .AstraBox {
     top: 0;
     left: 0;
   }
 
 
+}
+.drawCircle{
+  mask-image: conic-gradient(transparent 0deg, black 0deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+  animation: reveal 0.2s forwards; /* 시계방향으로 나타나는 애니메이션 */
+}
+
+@keyframes reveal {
+  00% {
+    mask-image: conic-gradient(from 180deg, transparent 360deg, black 360deg); /* 6시부터 아무것도 보이지 않음 */
+  }
+  25% {
+    mask-image: conic-gradient(from 180deg, transparent 270deg, black 270deg); /* 6시부터 9시까지 나타남 */
+  }
+  50% {
+    mask-image: conic-gradient(from 180deg, transparent 180deg, black 180deg); /* 6시부터 12시까지 나타남 */
+  }
+  75% {
+    mask-image: conic-gradient(from 180deg, transparent 90deg, black 90deg); /* 6시부터 3시까지 나타남 */
+  }
+  100% {
+    mask-image: conic-gradient(from 180deg, transparent 0deg, black 0deg); /* 6시부터 6시까지 완전히 나타나는 상태 */
+  }
 }
