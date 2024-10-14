@@ -34,14 +34,30 @@
   }
 
   .forestBox {
-    bottom: 0;
-    left: 10px;
+    left: 0;
+    .forestImg{
+      position: absolute;
+      z-index: 2;
+      top: -15px;
+      left: 10px;
+      cursor: pointer;
+
+    }
+    .circle{
+      top: -100px;
+      left: -95px;
+      z-index: 1;
+      position: absolute;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%; /* 원 모양 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+    }
   }
 
   .groundBox {
-    top: -30px;
+    top: -32px;
     right: 15px;
-
     .circle {
       position: absolute;
       top: -70px;
@@ -50,7 +66,7 @@
       height: 270px;
       z-index: 1;
       border-radius: 50%; /* 원 모양 */
-      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
     .groundImg {
@@ -58,21 +74,58 @@
       z-index: 2;
       cursor: pointer;
       left: -90px;
-    }
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 기본 그림자 */
 
+    }
     .groundImg:hover {
       background: #282c34;
     }
   }
 
   .sanhoBox {
-    top: -35px;
-    right: -10px;
+    top: -25px;
+    left: 60px;
+    .sanhoImg{
+      position: absolute;
+      z-index: 2;
+      top: -15px;
+      left: 10px;
+      cursor: pointer;
+
+    }
+    .circle{
+      top: -100px;
+      left: -105px;
+      z-index: 1;
+      position: absolute;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%; /* 원 모양 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+    }
   }
 
   .poisonBox {
-    left: 0;
-    bottom: 0;
+    left: -10px;
+    top: 70px;
+    .poisonImg{
+      position: absolute;
+      z-index: 2;
+      top: -15px;
+      left: 10px;
+      cursor: pointer;
+
+    }
+    .circle{
+      top: -100px;
+      left: -105px;
+      z-index: 1;
+      position: absolute;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%; /* 원 모양 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+    }
   }
 
   .dragonBox {
@@ -93,14 +146,48 @@
 
   .AstraBox {
     top: 0;
-    left: 0;
+    left: -2px;
+    .circle{
+      z-index: 1;
+      position: absolute;
+      top: -70px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+
+    }
+    .AstraImg{
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+
+    }
   }
-
-
 }
 .drawCircle{
   mask-image: conic-gradient(transparent 0deg, black 0deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
   animation: reveal 0.2s forwards; /* 시계방향으로 나타나는 애니메이션 */
+}
+.click{
+  transition: filter 0.3s ease, box-shadow 0.3s ease; /* 필터와 그림자 전환을 부드럽게 처리 */
+  animation: greenEffect 0.5s forwards; /* 애니메이션 적용, 1초 동안 진행 */
+  box-shadow: inset 0 8px 12px rgba(0, 0, 0, 0.3), 0 16px 32px rgba(0, 0, 0, 0.4); /* 눌렸을 때 깊은 그림자 효과 */
+  transform: translateY(4px); /* 눌렸을 때 아래로 약간 밀리는 느낌 */
+
+
+}
+@keyframes greenEffect {
+  0% {
+    filter: hue-rotate(0deg) brightness(1) saturate(1);
+  }
+  50% {
+    filter: hue-rotate(50deg) brightness(0.9) saturate(1.5); /* 초록색 효과 */
+  }
+  100% {
+    filter: hue-rotate(0deg) brightness(1) saturate(1); /* 원래 상태로 돌아옴 */
+  }
 }
 
 @keyframes reveal {
