@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../scss/Header.scss'
-import {Link} from "react-router-dom";
+import {Link, Route} from "react-router-dom";
 import { VscAccount } from "react-icons/vsc";
-const Header = () => {
+import MainMap from "../../MainMap/js/MainMap";
+
+const Header = ({isCheckMainMap}) => {
+    const [isActive, setIsActive] = useState("");
+    const isCheckActive = (e) => {
+        isCheckActive(e.target.className[0]);
+        setIsActive("시밤");
+    }
+    console.log(isCheckMainMap);
     return (
         <>
             <section className="headerNav">

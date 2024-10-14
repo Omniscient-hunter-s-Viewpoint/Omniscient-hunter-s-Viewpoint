@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import "../scss/MainMap.scss"
 
-const MainMap = () => {
+const MainMap = ({isCheckHandler}) => {
     const [isHovered, setIsHovered] = useState(null);
     const [isClicked, setClicked] = useState(false);
     const [isClassName,setIsClassName]=useState(null);
     const clickHandler = (e) => {
+        isCheckHandler(e.target.classList[0]);
         if (!isClicked){
             setIsClassName(e.target.classList[0]);
             setClicked(true);
