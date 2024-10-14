@@ -1,0 +1,362 @@
+#mainMap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../img/mainMap.png") no-repeat center/cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 950px;
+  grid-template-columns: repeat(10, 150px); 
+  grid-template-rows: repeat(5, 150px);
+  gap: 10px;
+  overflow: hidden;
+
+  .gridItem {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sharedCharacteristic {
+    position: absolute;
+
+    .imgsize {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  .forestBox {
+    left: 0;
+
+    .forestImg {
+      position: absolute;
+      z-index: 2;
+      top: -15px;
+      left: 10px;
+      cursor: pointer;
+
+    }
+
+    .circle {
+      top: -100px;
+      left: -95px;
+      z-index: 1;
+      position: absolute;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+    }
+    .forestTitle{
+      bottom: -110px;
+      left: -45px;
+    }
+  }
+
+  .groundBox {
+    top: -32px;
+    right: 15px;
+
+    .circle {
+      position: absolute;
+      top: -70px;
+      right: -120px;
+      width: 320px;
+      height: 270px;
+      z-index: 1;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+
+    }
+
+    .groundImg {
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+      left: -90px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    }
+    .groundTitle{
+      bottom: -125px;
+      left: -145px;
+    }
+
+    .groundImg:hover {
+      background: #282c34;
+    }
+  }
+
+  .sanhoBox {
+    top: -25px;
+    left: 60px;
+
+    .sanhoImg {
+      position: absolute;
+      z-index: 2;
+      top: -15px;
+      left: 10px;
+      cursor: pointer;
+
+    }
+
+    .circle {
+      top: -100px;
+      left: -105px;
+      z-index: 1;
+      position: absolute;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+    }
+    .sanhoTitle{
+      bottom: -110px;
+      left: -45px;
+    }
+  }
+
+  .poisonBox {
+    left: -10px;
+    top: 70px;
+
+    .poisonImg {
+      position: absolute;
+      z-index: 2;
+      top: -15px;
+      left: 10px;
+      cursor: pointer;
+
+    }
+
+    .circle {
+      top: -100px;
+      left: -105px;
+      z-index: 1;
+      position: absolute;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+    }
+    .poisonTitle{
+      bottom: -110px;
+      left: -50px;
+    }
+  }
+
+  .dragonBox {
+    top: -50px;
+    left: 0;
+
+    .circle {
+      z-index: 1;
+      position: absolute;
+      top: -75px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+
+    }
+
+    .dragonImg {
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+    }
+    .dragonTitle{
+      bottom: -130px;
+      left: -55px;
+    }
+
+  }
+
+  .snowBox {
+    top: 90px;
+    left: -5px;
+
+    .circle {
+      z-index: 1;
+      position: absolute;
+      top: -75px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+
+    }
+
+
+    .snowImg {
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+    }
+    .snowTitle{
+      bottom: -130px;
+      left: -55px;
+    }
+  }
+
+  .researchBaseBox {
+    top: -20px;
+    left: -50px;
+
+    .circle {
+      z-index: 1;
+      position: absolute;
+      top: -70px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+
+    }
+
+    .researchBaseImg {
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .researchBaseTitle{
+      bottom: -125px;
+      left: -55px;
+    }
+  }
+
+  .AstraBox {
+    top: 0;
+    left: -2px;
+
+    .circle {
+      z-index: 1;
+      position: absolute;
+      top: -70px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+
+    }
+
+    .AstraImg {
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .AstraTitle{
+      top: -30px;
+      left: -50px;
+    }
+  }
+
+  .SerenaBox {
+    top: -40px;
+    left: -2px;
+
+    .circle {
+      z-index: 1;
+      position: absolute;
+      top: -70px;
+      left: -110px;
+      width: 320px;
+      height: 270px;
+      border-radius: 50%;
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
+
+    }
+
+    .SerenaImg {
+      position: absolute;
+      z-index: 2;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .SerenaTitle{
+      bottom: -120px;
+      left: -55px;
+    }
+  }
+}
+.AreaTitle {
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
+  color: #A58E3D;
+  text-shadow:
+          1px 1px 2px #000000,
+
+
+          0 0 5px #A58E3D,
+          0 0 3px #8B7500;
+
+
+  font-weight: 500;
+  background-color: rgba(00, 00, 00, 0.2);
+  border-radius: 5%;
+
+}
+
+.drawCircle {
+  mask-image: conic-gradient(transparent 0deg, black 0deg);
+  animation: reveal 0.2s forwards;
+}
+
+.click {
+  transition: filter 0.3s ease, box-shadow 0.3s ease;
+  animation: greenEffect 0.5s forwards;
+  box-shadow: inset 0 8px 12px rgba(0, 0, 0, 0.3), 0 16px 32px rgba(0, 0, 0, 0.4);
+  transform: translateY(4px);
+}
+
+@keyframes greenEffect {
+  0% {
+    filter: hue-rotate(0deg) brightness(1) saturate(1);
+  }
+  50% {
+    filter: hue-rotate(30deg) brightness(0.9) saturate(1.5);
+  }
+  100% {
+    filter: hue-rotate(0deg) brightness(1) saturate(1);
+  }
+}
+
+@keyframes reveal {
+  00% {
+    mask-image: conic-gradient(from 180deg, transparent 360deg, black 360deg);
+  }
+  25% {
+    mask-image: conic-gradient(from 180deg, transparent 270deg, black 270deg);
+  }
+  50% {
+    mask-image: conic-gradient(from 180deg, transparent 180deg, black 180deg);
+  }
+  75% {
+    mask-image: conic-gradient(from 180deg, transparent 90deg, black 90deg);
+  }
+  100% {
+    mask-image: conic-gradient(from 180deg, transparent 0deg, black 0deg);
+  }
+}
