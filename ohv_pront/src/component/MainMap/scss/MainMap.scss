@@ -3,7 +3,7 @@
   top: 50%; /* 창의 세로 중앙 */
   left: 50%; /* 창의 가로 중앙 */
   transform: translate(-50%, -50%); /* 중앙에 정확히 위치시키기 위해 offset 조정 */
-  background: url("../../../img/mainMapTest-Photoroom.png") no-repeat center/cover;
+  background: url("../../../img/mainMap.png") no-repeat center/cover;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,8 @@
 
   .forestBox {
     left: 0;
-    .forestImg{
+
+    .forestImg {
       position: absolute;
       z-index: 2;
       top: -15px;
@@ -43,7 +44,8 @@
       cursor: pointer;
 
     }
-    .circle{
+
+    .circle {
       top: -100px;
       left: -95px;
       z-index: 1;
@@ -53,11 +55,16 @@
       border-radius: 50%; /* 원 모양 */
       mask-image: conic-gradient(transparent 360deg, black 360deg);
     }
+    .forestTitle{
+      bottom: -110px;
+      left: -45px;
+    }
   }
 
   .groundBox {
     top: -32px;
     right: 15px;
+
     .circle {
       position: absolute;
       top: -70px;
@@ -69,6 +76,7 @@
       mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
+
     .groundImg {
       position: absolute;
       z-index: 2;
@@ -77,6 +85,11 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 기본 그림자 */
 
     }
+    .groundTitle{
+      bottom: -125px;
+      left: -145px;
+    }
+
     .groundImg:hover {
       background: #282c34;
     }
@@ -85,7 +98,8 @@
   .sanhoBox {
     top: -25px;
     left: 60px;
-    .sanhoImg{
+
+    .sanhoImg {
       position: absolute;
       z-index: 2;
       top: -15px;
@@ -93,7 +107,8 @@
       cursor: pointer;
 
     }
-    .circle{
+
+    .circle {
       top: -100px;
       left: -105px;
       z-index: 1;
@@ -102,13 +117,18 @@
       height: 270px;
       border-radius: 50%; /* 원 모양 */
       mask-image: conic-gradient(transparent 360deg, black 360deg);
+    }
+    .sanhoTitle{
+      bottom: -110px;
+      left: -45px;
     }
   }
 
   .poisonBox {
     left: -10px;
     top: 70px;
-    .poisonImg{
+
+    .poisonImg {
       position: absolute;
       z-index: 2;
       top: -15px;
@@ -116,7 +136,8 @@
       cursor: pointer;
 
     }
-    .circle{
+
+    .circle {
       top: -100px;
       left: -105px;
       z-index: 1;
@@ -126,12 +147,17 @@
       border-radius: 50%; /* 원 모양 */
       mask-image: conic-gradient(transparent 360deg, black 360deg);
     }
+    .poisonTitle{
+      bottom: -110px;
+      left: -50px;
+    }
   }
 
   .dragonBox {
     top: -50px;
     left: 0;
-    .circle{
+
+    .circle {
       z-index: 1;
       position: absolute;
       top: -75px;
@@ -142,10 +168,15 @@
       mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
 
     }
-    .dragonImg{
+
+    .dragonImg {
       position: absolute;
       z-index: 2;
       cursor: pointer;
+    }
+    .dragonTitle{
+      bottom: -130px;
+      left: -55px;
     }
 
   }
@@ -153,7 +184,8 @@
   .snowBox {
     top: 90px;
     left: -5px;
-    .circle{
+
+    .circle {
       z-index: 1;
       position: absolute;
       top: -75px;
@@ -164,17 +196,24 @@
       mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
 
     }
-    .snowImg{
+
+
+    .snowImg {
       position: absolute;
       z-index: 2;
       cursor: pointer;
+    }
+    .snowTitle{
+      bottom: -130px;
+      left: -55px;
     }
   }
 
   .researchBaseBox {
     top: -20px;
     left: -50px;
-    .circle{
+
+    .circle {
       z-index: 1;
       position: absolute;
       top: -70px;
@@ -185,18 +224,24 @@
       mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
 
     }
-    .researchBaseImg{
+
+    .researchBaseImg {
       position: absolute;
       z-index: 2;
       cursor: pointer;
       border-radius: 50%;
+    }
+    .researchBaseTitle{
+      bottom: -125px;
+      left: -55px;
     }
   }
 
   .AstraBox {
     top: 0;
     left: -2px;
-    .circle{
+
+    .circle {
       z-index: 1;
       position: absolute;
       top: -70px;
@@ -207,17 +252,24 @@
       mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
 
     }
-    .AstraImg{
+
+    .AstraImg {
       position: absolute;
       z-index: 2;
       cursor: pointer;
       border-radius: 50%;
     }
+    .AstraTitle{
+      top: -30px;
+      left: -50px;
+    }
   }
+
   .SerenaBox {
     top: -40px;
     left: -2px;
-    .circle{
+
+    .circle {
       z-index: 1;
       position: absolute;
       top: -70px;
@@ -228,32 +280,63 @@
       mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
 
     }
-    .SerenaImg{
+
+    .SerenaImg {
       position: absolute;
       z-index: 2;
       cursor: pointer;
       border-radius: 50%;
     }
+    .SerenaTitle{
+      bottom: -120px;
+      left: -55px;
+    }
   }
 }
-.drawCircle{
+.AreaTitle {
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif; /* Adjust as necessary */
+  font-size: 22px; /* Adjust size */
+  color: #A58E3D;
+  text-shadow:
+          1px 1px 2px #000000,
+
+
+          0 0 5px #A58E3D,
+          0 0 3px #8B7500;
+
+
+  font-weight: 500;
+  background-color: rgba(00, 00, 00, 0.2);
+  border-radius: 5%;
+
+}
+
+.drawCircle {
   mask-image: conic-gradient(transparent 0deg, black 0deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
   animation: reveal 0.2s forwards; /* 시계방향으로 나타나는 애니메이션 */
 }
-.click{
+
+.click {
   transition: filter 0.3s ease, box-shadow 0.3s ease; /* 필터와 그림자 전환을 부드럽게 처리 */
   animation: greenEffect 0.5s forwards; /* 애니메이션 적용, 1초 동안 진행 */
   box-shadow: inset 0 8px 12px rgba(0, 0, 0, 0.3), 0 16px 32px rgba(0, 0, 0, 0.4); /* 눌렸을 때 깊은 그림자 효과 */
   transform: translateY(4px); /* 눌렸을 때 아래로 약간 밀리는 느낌 */
-
-
 }
+
 @keyframes greenEffect {
   0% {
     filter: hue-rotate(0deg) brightness(1) saturate(1);
   }
   50% {
-    filter: hue-rotate(50deg) brightness(0.9) saturate(1.5); /* 초록색 효과 */
+    filter: hue-rotate(30deg) brightness(0.9) saturate(1.5); /* 초록색 효과 */
   }
   100% {
     filter: hue-rotate(0deg) brightness(1) saturate(1); /* 원래 상태로 돌아옴 */
