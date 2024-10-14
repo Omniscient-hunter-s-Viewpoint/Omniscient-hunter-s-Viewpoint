@@ -1,17 +1,17 @@
 #mainMap {
-  position: absolute; /* 절대 위치 지정 */
-  top: 50%; /* 창의 세로 중앙 */
-  left: 50%; /* 창의 가로 중앙 */
-  transform: translate(-50%, -50%); /* 중앙에 정확히 위치시키기 위해 offset 조정 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: url("../../../img/mainMap.png") no-repeat center/cover;
   display: grid;
   justify-content: center;
   align-items: center;
   width: 1920px;
   height: 950px;
-  grid-template-columns: repeat(10, 150px); /* 10개의 열 */
-  grid-template-rows: repeat(5, 150px); /* 6개의 행 */
-  gap: 10px; /* 항목 간의 간격 */
+  grid-template-columns: repeat(10, 150px); 
+  grid-template-rows: repeat(5, 150px);
+  gap: 10px;
   overflow: hidden;
 
   .gridItem {
@@ -52,7 +52,7 @@
       position: absolute;
       width: 320px;
       height: 270px;
-      border-radius: 50%; /* 원 모양 */
+      border-radius: 50%;
       mask-image: conic-gradient(transparent 360deg, black 360deg);
     }
     .forestTitle{
@@ -72,7 +72,7 @@
       width: 320px;
       height: 270px;
       z-index: 1;
-      border-radius: 50%; /* 원 모양 */
+      border-radius: 50%;
       mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
@@ -82,7 +82,7 @@
       z-index: 2;
       cursor: pointer;
       left: -90px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 기본 그림자 */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
     }
     .groundTitle{
@@ -115,7 +115,7 @@
       position: absolute;
       width: 320px;
       height: 270px;
-      border-radius: 50%; /* 원 모양 */
+      border-radius: 50%;
       mask-image: conic-gradient(transparent 360deg, black 360deg);
     }
     .sanhoTitle{
@@ -144,7 +144,7 @@
       position: absolute;
       width: 320px;
       height: 270px;
-      border-radius: 50%; /* 원 모양 */
+      border-radius: 50%;
       mask-image: conic-gradient(transparent 360deg, black 360deg);
     }
     .poisonTitle{
@@ -165,7 +165,7 @@
       width: 320px;
       height: 270px;
       border-radius: 50%;
-      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
 
@@ -193,7 +193,7 @@
       width: 320px;
       height: 270px;
       border-radius: 50%;
-      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
 
@@ -221,7 +221,7 @@
       width: 320px;
       height: 270px;
       border-radius: 50%;
-      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
 
@@ -249,7 +249,7 @@
       width: 320px;
       height: 270px;
       border-radius: 50%;
-      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
 
@@ -277,7 +277,7 @@
       width: 320px;
       height: 270px;
       border-radius: 50%;
-      mask-image: conic-gradient(transparent 360deg, black 360deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
+      mask-image: conic-gradient(transparent 360deg, black 360deg);
 
     }
 
@@ -302,8 +302,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Arial', sans-serif; /* Adjust as necessary */
-  font-size: 22px; /* Adjust size */
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
   color: #A58E3D;
   text-shadow:
           1px 1px 2px #000000,
@@ -320,15 +320,15 @@
 }
 
 .drawCircle {
-  mask-image: conic-gradient(transparent 0deg, black 0deg); /* 처음에는 6시부터 아무것도 보이지 않음 */
-  animation: reveal 0.2s forwards; /* 시계방향으로 나타나는 애니메이션 */
+  mask-image: conic-gradient(transparent 0deg, black 0deg);
+  animation: reveal 0.2s forwards;
 }
 
 .click {
-  transition: filter 0.3s ease, box-shadow 0.3s ease; /* 필터와 그림자 전환을 부드럽게 처리 */
-  animation: greenEffect 0.5s forwards; /* 애니메이션 적용, 1초 동안 진행 */
-  box-shadow: inset 0 8px 12px rgba(0, 0, 0, 0.3), 0 16px 32px rgba(0, 0, 0, 0.4); /* 눌렸을 때 깊은 그림자 효과 */
-  transform: translateY(4px); /* 눌렸을 때 아래로 약간 밀리는 느낌 */
+  transition: filter 0.3s ease, box-shadow 0.3s ease;
+  animation: greenEffect 0.5s forwards;
+  box-shadow: inset 0 8px 12px rgba(0, 0, 0, 0.3), 0 16px 32px rgba(0, 0, 0, 0.4);
+  transform: translateY(4px);
 }
 
 @keyframes greenEffect {
@@ -336,27 +336,27 @@
     filter: hue-rotate(0deg) brightness(1) saturate(1);
   }
   50% {
-    filter: hue-rotate(30deg) brightness(0.9) saturate(1.5); /* 초록색 효과 */
+    filter: hue-rotate(30deg) brightness(0.9) saturate(1.5);
   }
   100% {
-    filter: hue-rotate(0deg) brightness(1) saturate(1); /* 원래 상태로 돌아옴 */
+    filter: hue-rotate(0deg) brightness(1) saturate(1);
   }
 }
 
 @keyframes reveal {
   00% {
-    mask-image: conic-gradient(from 180deg, transparent 360deg, black 360deg); /* 6시부터 아무것도 보이지 않음 */
+    mask-image: conic-gradient(from 180deg, transparent 360deg, black 360deg);
   }
   25% {
-    mask-image: conic-gradient(from 180deg, transparent 270deg, black 270deg); /* 6시부터 9시까지 나타남 */
+    mask-image: conic-gradient(from 180deg, transparent 270deg, black 270deg);
   }
   50% {
-    mask-image: conic-gradient(from 180deg, transparent 180deg, black 180deg); /* 6시부터 12시까지 나타남 */
+    mask-image: conic-gradient(from 180deg, transparent 180deg, black 180deg);
   }
   75% {
-    mask-image: conic-gradient(from 180deg, transparent 90deg, black 90deg); /* 6시부터 3시까지 나타남 */
+    mask-image: conic-gradient(from 180deg, transparent 90deg, black 90deg);
   }
   100% {
-    mask-image: conic-gradient(from 180deg, transparent 0deg, black 0deg); /* 6시부터 6시까지 완전히 나타나는 상태 */
+    mask-image: conic-gradient(from 180deg, transparent 0deg, black 0deg);
   }
 }
