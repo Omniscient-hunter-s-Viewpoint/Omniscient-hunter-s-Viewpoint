@@ -14,7 +14,6 @@ function App() {
     const isCheckHandler = (e) => {
         setIsCheckMainMap(e);
     }
-    console.log(isCheckMainMap);
     return (
         <div className="App" style={{"overflow":"hidden"}}>
             <Reset/>
@@ -26,7 +25,7 @@ function App() {
                     <Route path="/SignUp" element={<SignUp/>}></Route>
                     <Route path="/mainMap" element={<MainMap isCheckHandler={isCheckHandler}/>}></Route>
                 </Routes>
-                <Footer/>
+                <Footer />
             </BrowserRouter>
         </div>
     );

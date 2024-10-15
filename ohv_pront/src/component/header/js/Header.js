@@ -6,11 +6,11 @@ import MainMap from "../../MainMap/js/MainMap";
 
 const Header = ({isCheckMainMap}) => {
     const [isActive, setIsActive] = useState("");
-    const isCheckActive = (e) => {
-        isCheckActive(e.target.className[0]);
-        setIsActive("시밤");
+    const handleActive = (e) => {
+        setIsActive(e.target.className[0]);
     }
-    console.log(isCheckMainMap);
+    console.log(isCheckMainMap)
+    console.log("test");
     return (
         <>
             <section className="headerNav">
