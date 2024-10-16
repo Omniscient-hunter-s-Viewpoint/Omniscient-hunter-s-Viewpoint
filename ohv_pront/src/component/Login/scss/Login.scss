@@ -46,10 +46,21 @@ input::placeholder {
         border: none;
         background: transparent;
         border-bottom: black solid 3px ;
-        width: 85%;
+        width: 75%;
         height: 50%;
         margin: 1vw;
         font-size: 2vw;
+      }
+      .errorMessage{
+        color: red;
+        border: 1px white;
+        font-weight: 500;
+        font-size: 1.2vw;
+        width: 100%;
+        text-shadow: -0.5px -0.5px 0px #000,
+        0.5px -0.5px 0px #000,
+        -0.5px 0.5px 0px #000,
+        0.5px 0.5px 0px #000;
       }
 
       .input:focus {
