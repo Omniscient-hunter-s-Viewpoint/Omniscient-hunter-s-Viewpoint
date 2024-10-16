@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
-import {json, Link} from "react-router-dom";
+import {json, Link, useNavigate} from "react-router-dom";
 import 'animate.css';
 import '../scss/Login.scss'
 import {USER_URL} from "../../../config/host-config";
 
 const SignUp = () => {
+    const redirection : NewableFunction=useNavigate();
     const [userValue, setValue] = useState({
         username: '',
         password: '',
@@ -118,7 +119,23 @@ const SignUp = () => {
         setMessage({...message,passwordCheck: msg})
     }
     const signUpHandler = () => {
-        console.log(correct);
+        if(Object.values(correct).every(value => value)){
+            registerHander();
+        }
+    }
+    const registerHander=async ()=>{
+        const res= await fetch(USER_URL,{
+            method:'POST',
+            headers:{'content-type':'application/json'},
+            body: JSON.stringify(userValue)
+        });
+        if(res.status===200){
+            const json=await res.json();
+            redirection('/');
+        }
+        else{
+            alert('서버와의 통신이 월할하지 않습니다.')
+        }
     }
     return (
         <section className="LoginBackGround">

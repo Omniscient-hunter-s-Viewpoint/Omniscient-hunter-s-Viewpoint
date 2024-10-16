@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/config/host-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,7 @@
       <workItem from="1725347315725" duration="1261000" />
       <workItem from="1725348629244" duration="8852000" />
       <workItem from="1725358606341" duration="3113000" />
-      <workItem from="1729044347359" duration="10369000" />
+      <workItem from="1729044347359" duration="11543000" />
     </task>
     <servers />
   </component>
