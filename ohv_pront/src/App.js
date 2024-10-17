@@ -14,7 +14,6 @@ function App() {
     const isCheckHandler = (e) => {
         setIsCheckMainMap(e);
     }
-    console.log(isCheckMainMap);
     return (
         <div className="App" style={{"overflow":"hidden"}}>
             <Reset/>

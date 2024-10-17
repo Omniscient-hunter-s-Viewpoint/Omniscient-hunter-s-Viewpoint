@@ -10,7 +10,6 @@ const Header = ({isCheckMainMap}) => {
         isCheckActive(e.target.className[0]);
         setIsActive("시밤");
     }
-    console.log(isCheckMainMap);
     return (
         <>
             <section className="headerNav">
