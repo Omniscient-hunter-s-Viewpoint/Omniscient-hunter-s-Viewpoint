@@ -1,5 +1,9 @@
 import React, {useState} from 'react';
 import "../scss/MainMap.scss"
+import {TransformComponent, TransformWrapper} from "react-zoom-pan-pinch";
+import {within} from "@testing-library/react";
+import DetailModal from "./detailModal";
+import {Link} from "react-router-dom";
 
 const MainMap = ({isCheckHandler}) => {
     const [isHovered, setIsHovered] = useState(null);
@@ -29,6 +33,7 @@ const MainMap = ({isCheckHandler}) => {
 
     return (
         <div id="mainMap">
+
             <div className="gridItem1 gridItem"></div>
             <div className="gridItem2 gridItem"></div>
             <div className="gridItem3 gridItem">
@@ -47,7 +52,8 @@ const MainMap = ({isCheckHandler}) => {
                         src="/img/redCircle.png"
                         alt="이미지 깨짐"
                     />
-                </div></div>
+                </div>
+            </div>
             <div className="gridItem4 gridItem"></div>
             <div className="gridItem5 gridItem"></div>
             <div className="gridItem6 gridItem"></div>
@@ -134,13 +140,14 @@ const MainMap = ({isCheckHandler}) => {
             <div className="gridItem34 gridItem"></div>
             <div className="gridItem35 gridItem">
                 <div className="researchBaseBox sharedCharacteristic">
-                    <img className={`researchBaseImg imgsize ${"researchBaseImg" === isClassName ? 'click' : ""}`}
-                         src="/img/researchBase.png"
-                         alt="사진 깨짐"
-                         onMouseEnter={handleEnter} onMouseLeave={handleLeave} onClick={clickHandler}
-                         onAnimationEnd={() => {
-                             leaveHandler()
-                         }}
+                    <img
+                        className={`researchBaseImg imgsize ${"researchBaseImg" === isClassName ? 'click' : ""}`}
+                        src="/img/researchBase.png"
+                        alt="사진 깨짐"
+                        onMouseEnter={handleEnter} onMouseLeave={handleLeave} onClick={clickHandler}
+                        onAnimationEnd={() => {
+                            leaveHandler()
+                        }}
                     />
                     <div className="AreaTitle researchBaseTitle">연구 기지</div>
 
@@ -152,6 +159,10 @@ const MainMap = ({isCheckHandler}) => {
                 </div>
             </div>
             <div className="gridItem36 gridItem"></div>
+            <div className="gridItem38 gridItem">
+                <DetailModal/>
+            </div>
+            <div className="gridItem39 gridItem"></div>
             <div className="gridItem37 gridItem">
                 <div className="poisonBox sharedCharacteristic">
                     <img className={`poisonImg imgsize ${"poisonImg" === isClassName ? 'click' : ""}`}
@@ -171,13 +182,11 @@ const MainMap = ({isCheckHandler}) => {
                     />
                 </div>
             </div>
-            <div className="gridItem38 gridItem"></div>
-            <div className="gridItem39 gridItem"></div>
             <div className="gridItem40 gridItem"></div>
             <div className="gridItem41 gridItem"></div>
             <div className="gridItem42 gridItem"></div>
             <div className="gridItem43 gridItem">
-                <div className="forestBox sharedCharacteristic">
+                <Link to="/mainMap/forest" className="forestBox sharedCharacteristic">
                     <img className={`forestImg imgsize ${"forestImg" === isClassName ? 'click' : ""}`}
                          src="/img/forest.png"
                          alt="사진 깨짐"
@@ -193,7 +202,7 @@ const MainMap = ({isCheckHandler}) => {
                         src="/img/redCircle.png"
                         alt="이미지 깨짐"
                     />
-                </div>
+                </Link>
             </div>
             <div className="gridItem44 gridItem"></div>
             <div className="gridItem45 gridItem"></div>
@@ -250,6 +259,7 @@ const MainMap = ({isCheckHandler}) => {
             <div className="gridItem50 gridItem"></div>
             <div className="gridItem50 gridItem"></div>
         </div>
+
     );
 
 
