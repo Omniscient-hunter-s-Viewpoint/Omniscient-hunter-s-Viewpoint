@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/ohv_pront/public/img/area1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/public/img/area1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/public/img/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/public/img/detailmodal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/public/img/gma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/public/img/selectModal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/js/detailModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/scss/detailModal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Map/forest/js/ForestMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/Map/forest/scss/ForestMap.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ohv_pront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ohv_pront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/js/MainMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/js/MainMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/scss/MainMap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/scss/MainMap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/config/host-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/config/host-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +114,9 @@
       <workItem from="1725358606341" duration="3113000" />
       <workItem from="1729044347359" duration="11579000" />
       <workItem from="1729123643271" duration="12626000" />
-      <workItem from="1729209802230" duration="15010000" />
+      <workItem from="1729209802230" duration="15517000" />
+      <workItem from="1729484076578" duration="3132000" />
+      <workItem from="1729495654278" duration="821000" />
     </task>
     <servers />
   </component>

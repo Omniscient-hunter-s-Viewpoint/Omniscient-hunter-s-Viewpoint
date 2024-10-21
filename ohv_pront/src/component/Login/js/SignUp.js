@@ -2,8 +2,10 @@ import React, {useEffect, useState} from 'react';
 import {json, Link, useNavigate} from "react-router-dom";
 import 'animate.css';
 import '../scss/Login.scss'
-import {USER_URL} from "../../../config/host-config";
+import {API_KEY, USER_URL} from "../../../config/host-config";
 import {BiSolidLock, BiSolidLockOpen} from "react-icons/bi";
+import SteamAPI from "steamapi";
+const steam = new SteamAPI(API_KEY);
 
 const SignUp = () => {
     const redirection: NewableFunction = useNavigate();
