@@ -14,8 +14,7 @@ const Header = ({isCheckMainMap}) => {
     return (
         <>
             <section className="headerNav">
-                <div className="headerLogo">
-                </div>
+                <div className="headerLogo"></div>
                 <div className="headerLogin">
                     <Link to="/login"><VscAccount className="headerLoginIcon"/></Link>
                 </div>

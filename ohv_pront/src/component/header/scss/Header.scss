@@ -1,4 +1,3 @@
-
 .headerNav {
   z-index: 99999;
   display: flex;
@@ -15,25 +14,27 @@
     width: 10vh;
     height: 8vh;
     background-image: url('../../../imgs/headerLogo.png') no-repeat center/contain;
-    .headerMenu {
+    nav {
+      .headerMenu {
       display: flex;
       list-style: none;
       gap: 20vh;
-      .headerMenu a {
-        color: white;
+      .li {
+          color: white;
         text-decoration: none;
         font-size: 2vh;
-        .headerLogin {
-          position: fixed;
-          gap: 1vh;
-          .headerLoginIcon {
-            position: fixed;
-            color: white;
-            top: 1.3em;
-            right: 10vh;
-            width: 10vh;
-            height: 4vh;
-          }
+      }
+    }
+      .headerLogin {
+      position: fixed;
+      gap: 1vh;
+      .headerLoginIcon {
+        position: fixed;
+        color: white;
+        top: 1.3em;
+        right: 10vh;
+        width: 10vh;
+        height: 4vh;
         }
       }
     }
