@@ -10,20 +10,20 @@ import Footer from "./component/footer/js/Footer";
 import MainMap from "./component/MainMap/js/MainMap";
 
 function App() {
-    const [isCheckMainMap, setIsCheckMainMap] = useState("");
-    const isCheckHandler = (e) => {
-        setIsCheckMainMap(e);
+    const [isCheckHeader, setIsCheckHeader] = useState("아직 안바꿈");
+    function ChangeEventHandler(text) {
+        setIsCheckHeader(text);
     }
     return (
         <div className="App" style={{"overflow":"hidden"}}>
             <Reset/>
             <BrowserRouter>
-                <Header isCheckMainMap={isCheckMainMap}/>
+                <Header isCheckHeader={isCheckHeader} ChangeEventHandler={ChangeEventHandler}/>
                 <Routes>
                     <Route path="/" element={<Main/>}></Route>
                     <Route path="/login" element={<Login/>}></Route>
                     <Route path="/SignUp" element={<SignUp/>}></Route>
-                    <Route path="/mainMap" element={<MainMap isCheckHandler={isCheckHandler}/>}></Route>
+                    <Route path="/mainMap" element={<MainMap/>}></Route>
                 </Routes>
                 <Footer />
             </BrowserRouter>
