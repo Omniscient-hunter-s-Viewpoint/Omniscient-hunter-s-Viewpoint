@@ -11,15 +11,15 @@ import MainMap from "./component/MainMap/js/MainMap";
 import ForestMap from "./component/Map/forest/js/ForestMap";
 
 function App() {
-    const [isCheckMainMap, setIsCheckMainMap] = useState("");
-    const isCheckHandler = (e) => {
-        setIsCheckMainMap(e);
+    const [isCheckHeader, setIsCheckHeader] = useState("아직 안바꿈");
+    function ChangeEventHandler(text) {
+        setIsCheckHeader(text);
     }
     return (
         <div className="App" style={{"overflow":"hidden"}}>
             <Reset/>
             <BrowserRouter>
-                <Header isCheckMainMap={isCheckMainMap}/>
+                <Header isCheckHeader={isCheckHeader} ChangeEventHandler={ChangeEventHandler}/>
                 <Routes>
                     <Route path="/" element={<Main/>}></Route>
                     <Route path="/login" element={<Login/>}></Route>
@@ -27,7 +27,7 @@ function App() {
                     <Route path="/mainMap" element={<MainMap isCheckHandler={isCheckHandler}/>}></Route>
                     <Route path="/mainMap/forest" element={<ForestMap/>}></Route>
                 </Routes>
-                <Footer/>
+                <Footer />
             </BrowserRouter>
         </div>
     );
