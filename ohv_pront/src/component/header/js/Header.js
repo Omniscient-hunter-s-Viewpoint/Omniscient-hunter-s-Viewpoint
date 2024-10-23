@@ -4,13 +4,14 @@ import {Link, Route} from "react-router-dom";
 import { VscAccount } from "react-icons/vsc";
 import MainMap from "../../MainMap/js/MainMap";
 
-const Header = ({isCheckMainMap}) => {
-    const [isActive, setIsActive] = useState("");
-    const handleActive = (e) => {
-        setIsActive(e.target.className[0]);
+const Header = ({isCheckHeader, ChangeEventHandler}) => {
+    function onclickEventHandler() {
+        console.log(isCheckHeader);
     }
-    console.log(isCheckMainMap)
-    console.log("test");
+    const [isCheckText, setIsCheckText] = useState("이제 바뀜");
+    function onclickText() {
+        ChangeEventHandler(isCheckText);
+    }
     return (
         <>
             <section className="headerNav">
@@ -20,8 +21,8 @@ const Header = ({isCheckMainMap}) => {
                 </div>
                 <nav>
                     <ul className="headerMenu">
-                        <li><Link to="/">홈</Link></li>
-                        <li><Link to="/">무기</Link></li>
+                        <li onClick={onclickEventHandler}><Link to="/">홈</Link></li>
+                        <li onClick={onclickText}><Link to="/">무기</Link></li>
                         <li><Link to="/">장비</Link></li>
                         <li><Link to="/">도감</Link></li>
                         <li><Link to="/">가이드</Link></li>
