@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+
+$background-color: #c47135;
+$text-color: #ffffff;
+
 input::placeholder {
   font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* A playful font similar to the one in the image */
   font-size: 2vw; /* Adjust the size to match the image */
@@ -24,6 +29,10 @@ input::placeholder {
 
   .Login {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 
     .LoginTitle {
 
@@ -42,14 +51,26 @@ input::placeholder {
     }
 
     .Loginbox {
+      width: 95%;
       .input {
         border: none;
         background: transparent;
         border-bottom: black solid 3px ;
-        width: 85%;
+        width: 75%;
         height: 50%;
         margin: 1vw;
         font-size: 2vw;
+      }
+      .errorMessage{
+        color: red;
+        border: 1px white;
+        font-weight: 500;
+        font-size: 1.2vw;
+        width: 100%;
+        text-shadow: -0.5px -0.5px 0px #000,
+        0.5px -0.5px 0px #000,
+        -0.5px 0.5px 0px #000,
+        0.5px 0.5px 0px #000;
       }
 
       .input:focus {
@@ -65,22 +86,24 @@ input::placeholder {
       }
     }
 
-    .LoginBtn {
+    .sighInBtn {
       display: flex;
       justify-content: center;
+      align-items: center;
+      //background-color: $background-color;
+      border: none;
+      color: $text-color;
+      font-family: 'BenchNine', Arial, sans-serif;
+      font-size: 2vw;  // font-size: 1em;가 필요 없다면 제거 가능
+      line-height: 1em;
+      margin: 15px 40px;
+      outline: none;
+      padding: 12px 40px 10px;
+      position: relative;
+      text-transform: uppercase;
+      font-weight: 700;
 
-      .signInBtn {
-        width: 30%;
-        margin: 1vw;
-        font-size: 2vw;
-        cursor: pointer;
-      }
 
-      .signInBtn:hover {
-        animation: animate__bounceIn 0.5s;
-        animation-delay: 1s;
-
-      }
     }
 
     .LoginDetail {
@@ -146,4 +169,49 @@ input::placeholder {
   }
 
 }
+.lockOff{
+  background-color: #c47135;
+  cursor: pointer;
+  &:before,
+  &:after {
+    border-color: transparent;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+
+  &:before {
+    border-color: $background-color;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    right: -5px;
+    top: -5px;
+  }
+
+  &:after {
+    border-bottom-width: 2px;
+    border-color: $background-color;
+    border-left-width: 2px;
+    bottom: -5px;
+    left: -5px;
+  }
+
+  &:hover,
+  &.hover {
+    //background-color: $background-color;
+  }
+
+  &:hover:before,
+  &.hover:before,
+  &:hover:after,
+  &.hover:after {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 

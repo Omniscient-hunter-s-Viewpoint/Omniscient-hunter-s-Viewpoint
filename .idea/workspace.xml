@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/js/MainMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/MainMap/js/MainMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/config/host-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/config/host-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +49,25 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hyunjun2&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;backendPlus&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dvlp/asdasd&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.0.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dvlp\asdasd\ohv_pront\public\img" />
+      <recent name="D:\dvlp\asdasd\ohv_pront\src\component\Map\forest\js" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -75,8 +84,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -103,8 +112,11 @@
       <workItem from="1725347315725" duration="1261000" />
       <workItem from="1725348629244" duration="8852000" />
       <workItem from="1725358606341" duration="3113000" />
-      <workItem from="1729681093596" duration="115000" />
-      <workItem from="1729681216906" duration="3327000" />
+      <workItem from="1729044347359" duration="11579000" />
+      <workItem from="1729123643271" duration="12626000" />
+      <workItem from="1729209802230" duration="15517000" />
+      <workItem from="1729484076578" duration="3132000" />
+      <workItem from="1729495654278" duration="821000" />
     </task>
     <servers />
   </component>
