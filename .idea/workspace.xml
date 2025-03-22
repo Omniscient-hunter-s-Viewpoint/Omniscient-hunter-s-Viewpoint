@@ -4,106 +4,154 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/js/MainBackdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/MainBackdrop.scss" afterDir="false" />
+    <list default="true" id="15d4c59e-1f3c-401e-a68a-00c9f301c9fd" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Omniscient-hunter-s-Viewpoint-pront.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/js/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/js/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Omniscient-hunter-s-Viewpoint/ohv_pront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Omniscient-hunter-s-Viewpoint/ohv_pront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Omniscient-hunter-s-Viewpoint/ohv_pront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Omniscient-hunter-s-Viewpoint/ohv_pront/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/js/SignUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/Login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/LoginMain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/Login/scss/SignUp.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/footer/js/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/footer/scss/Footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/scss/Header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/js/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/js/MainBackdrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/MainBackdrop.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/main/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/img/btn1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/img/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/img/ee..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/img/main-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/img/map.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/img/neko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/img/ww.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/imgs/backdropLogoLeft.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/imgs/backdropLogoRight.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/imgs/headerLogin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/imgs/headerLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/imgs/main-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohv_pront/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Omniscient-hunter-s-Viewpoint" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/Omniscient-hunter-s-Viewpoint/ohv_pront/package.json" />
   </component>
   <component name="ProjectColorInfo">{
-    &quot;customColor&quot;: &quot;&quot;,
-    &quot;associatedIndex&quot;: 0
-    }</component>
-  <component name="ProjectId" id="2lHSUh3XgURfVKP3FoSM2RnjFNr" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2maPPuqbANh8c2mKpFPkxGyl2Xg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "hyunjun2",
+    "git-widget-placeholder": "CHOLEE",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/springWorkCclass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.0.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="" />
-      <created>1724835530331</created>
+      <changelist id="15d4c59e-1f3c-401e-a68a-00c9f301c9fd" name="변경" comment="" />
+      <created>1727311693854</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724835530331</updated>
-      <workItem from="1724835543098" duration="611000" />
-      <workItem from="1724903882529" duration="1886000" />
-      <workItem from="1724909331720" duration="16106000" />
-      <workItem from="1725000510297" duration="95000" />
-      <workItem from="1725016250443" duration="3502000" />
-      <workItem from="1725020498653" duration="117000" />
-      <workItem from="1725025921681" duration="91000" />
-      <workItem from="1725037582147" duration="1651000" />
-      <workItem from="1725168839122" duration="917000" />
-      <workItem from="1725286303206" duration="7000" />
-      <workItem from="1725286952017" duration="13000" />
-      <workItem from="1725332127281" duration="3128000" />
-      <workItem from="1725347315725" duration="1261000" />
-      <workItem from="1725348629244" duration="8852000" />
-      <workItem from="1725358606341" duration="3113000" />
+      <updated>1727311693854</updated>
+      <workItem from="1727311694998" duration="61000" />
+      <workItem from="1727317684982" duration="311000" />
+      <workItem from="1727326425102" duration="793000" />
+      <workItem from="1727335583731" duration="148000" />
+      <workItem from="1727763551301" duration="258000" />
+      <workItem from="1727840107767" duration="4631000" />
+      <workItem from="1728536983127" duration="165000" />
+      <workItem from="1728538780912" duration="4406000" />
+      <workItem from="1728544121775" duration="186000" />
+      <workItem from="1728544803715" duration="73000" />
+      <workItem from="1728545955065" duration="75000" />
+      <workItem from="1728564268321" duration="310000" />
+      <workItem from="1728565010833" duration="1520000" />
+      <workItem from="1728566589664" duration="3000" />
+      <workItem from="1728566626562" duration="2000" />
+      <workItem from="1728566815579" duration="3958000" />
+      <workItem from="1728904119295" duration="622000" />
+      <workItem from="1728964665785" duration="70000" />
+      <workItem from="1728964790392" duration="3340000" />
+      <workItem from="1728975037326" duration="1019000" />
+      <workItem from="1729140313921" duration="106000" />
+      <workItem from="1729145562881" duration="167000" />
+      <workItem from="1729561898072" duration="109000" />
+      <workItem from="1729562041607" duration="160000" />
+      <workItem from="1729565220021" duration="2759000" />
+      <workItem from="1729572776542" duration="445000" />
+      <workItem from="1729689686823" duration="312000" />
+      <workItem from="1729740844926" duration="133000" />
+      <workItem from="1729747028984" duration="44000" />
+      <workItem from="1729747190348" duration="123000" />
+      <workItem from="1729747919159" duration="79000" />
+      <workItem from="1729832916797" duration="643000" />
+      <workItem from="1729833627526" duration="358000" />
+      <workItem from="1730782388358" duration="9000" />
+      <workItem from="1731459715290" duration="4000" />
+      <workItem from="1731473554779" duration="11000" />
+      <workItem from="1742264569008" duration="74000" />
+      <workItem from="1742273350986" duration="183000" />
+      <workItem from="1742273576787" duration="719000" />
+      <workItem from="1742274585053" duration="1009000" />
+      <workItem from="1742454550834" duration="338000" />
     </task>
     <servers />
   </component>
