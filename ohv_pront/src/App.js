@@ -11,7 +11,7 @@ import MainMap from "./component/MainMap/js/MainMap";
 import ForestMap from "./component/Map/forest/js/ForestMap";
 
 function App() {
-    const [isCheckHeader, setIsCheckHeader] = useState("아직 안바꿈");
+    const [isCheckHeader, setIsCheckHeader] = useState("아직 안바뀜");
     function ChangeEventHandler(text) {
         setIsCheckHeader(text);
     }

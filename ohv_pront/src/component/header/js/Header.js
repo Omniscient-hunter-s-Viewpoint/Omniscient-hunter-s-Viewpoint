@@ -11,6 +11,7 @@ const Header = ({isCheckHeader, ChangeEventHandler}) => {
     const [isCheckText, setIsCheckText] = useState("이제 바뀜");
     function onclickText() {
         ChangeEventHandler(isCheckText);
+         setIsCheckText("true")
     }
     return (
         <>
