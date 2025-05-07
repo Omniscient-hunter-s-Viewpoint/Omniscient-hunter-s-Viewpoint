@@ -8,10 +8,25 @@ const Header = ({isCheckHeader, ChangeEventHandler}) => {
     function onclickEventHandler() {
         console.log(isCheckHeader);
     }
-    const [isCheckText, setIsCheckText] = useState("이제 바뀜");
-    function onclickText() {
-        ChangeEventHandler(isCheckText);
-         setIsCheckText("true")
+    const [isCheckWeapon, setIsCheckWeapon] = useState("false");
+    function onclickWeapon() {
+        ChangeEventHandler(isCheckWeapon);
+         setIsCheckWeapon("true")
+    }
+    const [isCheckTool, setIsCheckTool] = useState("false");
+    function onclickTool() {
+        ChangeEventHandler(isCheckTool);
+        setIsCheckTool("true");
+    }
+    const [isCheckBook, setIsCheckBook] = useState("false");
+    function onclickBook() {
+        ChangeEventHandler(isCheckBook);
+        setIsCheckBook("true");
+    }
+    const [isCheckGuide, setIsCheckGuide] = useState("false");
+    function onclickGuide() {
+        ChangeEventHandler(isCheckGuide);
+        setIsCheckGuide("false");
     }
     return (
         <>
@@ -23,10 +38,10 @@ const Header = ({isCheckHeader, ChangeEventHandler}) => {
                 <nav>
                     <ul className="headerMenu">
                         <li onClick={onclickEventHandler}><Link to="/">홈</Link></li>
-                        <li onClick={onclickText}><Link to="/">무기</Link></li>
-                        <li><Link to="/">장비</Link></li>
-                        <li><Link to="/">도감</Link></li>
-                        <li><Link to="/">가이드</Link></li>
+                        <li onClick={onclickWeapon}><Link to="/">무기</Link></li>
+                        <li onClick={onclickTool}><Link to="/">장비</Link></li>
+                        <li onClick={onclickBook}><Link to="/">도감</Link></li>
+                        <li onClick={onclickGuide}><Link to="/">가이드</Link></li>
                     </ul>
                 </nav>
             </section>
