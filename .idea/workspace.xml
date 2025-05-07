@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="452f9849-6c52-460a-9324-2b97f693e281" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/ohv_pront/src/component/header/js/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;CHOLEE&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/APJ/reCAPTCHA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "CHOLEE",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/APJ/Omniscient-hunter-s-Viewpoint-backEnds",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dvlp\asdasd\ohv_pront\public\img" />
@@ -125,6 +126,8 @@
       <workItem from="1743570489028" duration="11000" />
       <workItem from="1743990626158" duration="698000" />
       <workItem from="1743994295633" duration="19000" />
+      <workItem from="1745994851252" duration="396000" />
+      <workItem from="1745995527397" duration="108000" />
     </task>
     <servers />
   </component>
